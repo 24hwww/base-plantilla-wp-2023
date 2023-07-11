@@ -1,0 +1,21 @@
+{
+    "name": "Lima Centro",
+    "short_name": "Lima Centro",
+    "description": "LimaCentro es un directorio buscador de lo que sea que estes buscando y quieras encontrar en tu distrito de Lima - Perú.",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./?utm_source=web_app_manifest",
+    "theme_color": "#19191b",
+    "background_color": "#19191b",
+    "display": "standalone"
+}

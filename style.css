@@ -1,0 +1,17 @@
+/*
+Theme Name: SaboryFamilia
+Theme URI: http://saboryfamilia.com/
+Author: SaboryFamilia
+Author URI: http://saboryfamilia.com/
+Description: saboryfamilia.com
+Version: 1.02022
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: syf
+Tags: syf
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Ropa+Sans:ital@0;1&display=swap');
+
+/*@import 'inc/css/theme.css';*/
+@import 'inc/css/bootstrap.min.css'; 

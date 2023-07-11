@@ -1,0 +1,75 @@
+/* =CSS Custom
+----------------------------------------------- */
+html,body, html > body{height:100%;font-family: 'Noto Sans', sans-serif;background-color:#FFF;font-size:100%;opacity:1 !important;margin:0 !important;padding:0 !important;}
+.container{width:100% !important;max-width:1290px;}
+
+img, a:hover, a:active, a:focus{outline:0 !important;}
+object, embed {outline: 0 !important;}
+*:focus {outline:0 !important;}
+
+.cero-padding{padding:0;}
+.height-100{height:100%}
+
+.vertical-align{display: flex;align-items: center;justify-content: center;}
+.vertical-align.flex-wrap{flex-wrap: wrap;}
+.flex-wrap.flex-column{align-content: space-between;}
+
+.vertical-align-left{display: flex;align-items: center;justify-content: left;}
+.site{height:100%;display:table;width:100%;}
+
+.separator-100{height:100px;width:100%;display:block;clear:both;}
+.separator-60{height:60px;width:100%;display:block;clear:both;}
+
+.padding-block{padding-top:15px;padding-bottom:15px;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Ropa Sans', sans-serif;}
+
+/* INICIO */
+/**************************/
+
+.header-syf{}
+.header-syf-one{background-color:#ddd7d9;text-align:center;display:block;background-image:url('../img/bg-header-syf.jpeg');background-size:cover;background-repeat:no-repeat;background-position:center center;}
+.header-syf-logo{display:table;margin:0 auto;text-decoration:none !important;}
+.header-syf-logo img{margin:0 auto;padding:0;display:block;}
+.header-syf-logo h1{color:#5d5d5d;margin:15px 0 0 0;padding:0;display:block;text-align:center;font-size:50px;}
+.header-syf-two{background-color:#edde76;padding:10px 0;display:flex;align-items:center;}
+.header-syf-two .nav-menu{margin: 0 auto;display: table;}
+.header-syf-two .nav-menu ul{margin:0;padding:0;list-style:none;display:flex;}
+.header-syf-two .nav-menu ul > li{margin:0;padding:0;list-style:none;}
+.header-syf-two .nav-menu ul > li > a{margin:0;padding:10px 10px;list-style:none;color:#00A356;display:block;clear:both;font-size:16px;text-transform:uppercase;font-weight:700;text-decoration:none;}
+
+.header-syf-two .nav-links-social{margin: 0 0 0 auto;display: table;}
+.header-syf-two .nav-links-social ul{margin:0;padding:0;list-style:none;display:flex;}
+.header-syf-two .nav-links-social ul > li{margin:0 10px;padding:0;list-style:none;}
+.header-syf-two .nav-links-social ul > li > a{margin:0;padding:0 5px;list-style:none;color:#FFF;display:flex;clear:both;font-size:16px;text-transform:uppercase;background-color:#00A356;width:36px;height:36px;border-radius:100px;align-items:center;justify-content:center;text-decoration:none;}
+
+.header-syf-one-container{padding:15px 0;display:table;width:100%;clear:both;}
+
+.footer-syf{background-color:#1a1a1a;color:#FFF;padding:50px 0;}
+
+.footer-syf .nav-menu{margin: 0 auto;display: table;}
+.footer-syf .nav-menu ul{margin:0;padding:0;list-style:none;display:flex;}
+.footer-syf .nav-menu ul > li{margin:0;padding:0;list-style:none;}
+.footer-syf .nav-menu ul > li > a{margin:0;padding:10px 10px;list-style:none;color:#FFF;display:block;clear:both;font-size:16px;text-transform:uppercase;font-weight:700;text-decoration:none;}
+
+.footer-syf .nav-links-social{margin: 0 0 0 auto;display: table;}
+.footer-syf .nav-links-social ul{margin:0;padding:0;list-style:none;display:flex;}
+.footer-syf .nav-links-social ul > li{margin:0 10px;padding:0;list-style:none;}
+.footer-syf .nav-links-social ul > li > a{margin:0;padding:0 5px;list-style:none;color:#a3a3a3;display:flex;clear:both;font-size:16px;text-transform:uppercase;background-color:#3e3e3e;width:36px;height:36px;border-radius:100px;align-items:center;justify-content:center;text-decoration:none;}
+
+/* RESPONSIVE */
+/**************************/
+
+textarea.form-control{resize: vertical;overflow: auto;}
+.form-control{box-shadow:none !important;}
+.modal-content{border:0;box-shadow:none !important}
+
+.slidercaptcha.card{min-height: 300px;}
+
+@media (max-width: 1000px) {
+  .header-syf-two .nav-links-social, .footer-syf .nav-links-social{margin: 0 auto;display: table;}
+} 
+@media (max-height: 450px) {
+  .showcase-home{height: auto;}
+  .showcase-home--header-title{color:#FFF;font-weight:700;font-size:45px;margin:0;text-align: center;}
+}
